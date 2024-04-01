@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"os"
 )
+type logWriter struct{}
+
 
 func main() {
 	resp, err := http.Get("http://google.com")
