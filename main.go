@@ -28,3 +28,8 @@ func (englishBot) getGreeting() string {
 func (spanishBot) getGreeting() string {
 	return "Hola!"
 }
+
+func (greekBot) getGreeting() string {
+	return "Bonjour!"
+}
+
