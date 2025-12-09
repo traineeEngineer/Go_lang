@@ -28,3 +28,5 @@ func (englishBot) getGreeting() string {
 func (spanishBot) getGreeting() string {
 	return "Hola!"
 }
+
+bot 
